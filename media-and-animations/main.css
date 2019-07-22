@@ -1,0 +1,101 @@
+body {
+    background-color: darkgray;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 200px;
+    width: 900px;
+    background-image: repeating-linear-gradient(seagreen, indigo, deeppink, darkslateblue, darkseagreen, darkred, darkmagenta, darkorange, darkkhaki, springgreen, goldenrod, crimson, blueviolet, coral, teal, darkgreen, violet, yellow);
+    transition: 1s;
+    animation-name: myspinner;
+    animation-duration: 5s;
+    animation-delay: 0;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards; 
+}
+
+@media (max-width: 1500px) and (max-width: 1599px) {
+    .box {
+        background-image: repeating-linear-gradient(seagreen, indigo, deeppink, darkslateblue, darkseagreen, darkred, darkmagenta, darkorange, darkkhaki, springgreen, goldenrod, crimson, blueviolet, coral, teal, darkgreen, violet);
+    }
+@media (max-width: 1450px) and (max-width: 1499px) {
+    .box {
+        background-image: repeating-linear-gradient(seagreen, indigo, deeppink, darkslateblue, darkseagreen, darkred, darkmagenta, darkorange, darkkhaki, springgreen, goldenrod, crimson, blueviolet, coral, teal, darkgreen);
+    }
+@media (max-width: 1400px) and (max-width: 1449px) {
+    .box {
+        background-image: repeating-linear-gradient(seagreen, indigo, deeppink, darkslateblue, darkseagreen, darkred, darkmagenta, darkorange, darkkhaki, springgreen, goldenrod, crimson, blueviolet, coral, teal);
+    }
+@media (max-width: 1350px) and (max-width: 1399px) {
+    .box {
+        background-image: repeating-linear-gradient(seagreen, indigo, deeppink, darkslateblue, darkseagreen, darkred, darkmagenta, darkorange, darkkhaki, springgreen, goldenrod, crimson, blueviolet, coral);
+    }
+@media (max-width: 1300px) and (max-width: 1349px) {
+    .box {
+        background-image: repeating-linear-gradient(seagreen, indigo, deeppink, darkslateblue, darkseagreen, darkred, darkmagenta, darkorange, darkkhaki, springgreen, goldenrod, crimson, blueviolet);
+    }
+@media (max-width: 1250px) and (max-width: 1299px) {
+    .box {
+        background-image: repeating-linear-gradient(seagreen, indigo, deeppink, darkslateblue, darkseagreen, darkred, darkmagenta, darkorange, darkkhaki, springgreen, goldenrod, crimson);
+    }
+@media (max-width: 1200px) and (max-width: 1249px) {
+    .box {
+        background-image: repeating-linear-gradient(seagreen, indigo, deeppink, darkslateblue, darkseagreen, darkred, darkmagenta, darkorange, darkkhaki, springgreen, goldenrod);    
+    }
+@media (max-width: 1150px) and (max-width: 1199px) {
+    .box {
+        background-image: repeating-linear-gradient(seagreen, indigo, deeppink, darkslateblue, darkseagreen, darkred, darkmagenta, darkorange, darkkhaki, springgreen, goldenrod);
+    }
+@media (max-width: 1100px) and (max-width: 1149px) {
+    .box {
+        background-image: repeating-linear-gradient(seagreen, indigo, deeppink, darkslateblue, darkseagreen, darkred, darkmagenta, darkorange, darkkhaki, springgreen);
+    }
+@media (max-width: 1050px) and (max-width: 1099px) {
+    .box {
+        background-image: repeating-linear-gradient(seagreen, indigo, deeppink, darkslateblue, darkseagreen, darkred, darkmagenta, darkorange, darkkhaki);
+    }
+@media (max-width: 1000px) and (max-width: 1049px) {
+    .box {
+        background-image: repeating-linear-gradient(seagreen, indigo, deeppink, darkslateblue, darkseagreen, darkred, darkmagenta, darkorange);
+    }
+}
+@media (max-width: 950px) and (max-width: 999px) {
+    .box {
+        background-image: repeating-linear-gradient(seagreen, indigo, deeppink, darkslateblue, darkseagreen, darkred, darkmagenta);
+    }
+}
+@media (max-width: 900px) and (max-width: 949px) {
+    .box {
+        background-image: repeating-linear-gradient(seagreen, indigo, deeppink, darkslateblue, darkseagreen, darkred);
+    }
+}
+@media (max-width: 850px) and (max-width: 899px) {
+    .box {
+        background-image: repeating-linear-gradient(seagreen, indigo, deeppink, darkslateblue, darkseagreen);
+    }
+}
+@media (max-width: 800px) and (max-width: 849px) {
+    .box {
+        background-image: repeating-linear-gradient(seagreen, indigo, deeppink, darkslateblue);
+    }
+}
+@media (max-width: 750px) and (max-width: 799px) {
+    .box {
+        background-image: repeating-linear-gradient(seagreen, indigo, deeppink);
+    }
+}
+@media (max-width: 700px) and (max-width: 749px) {
+    .box {
+        background-image: repeating-linear-gradient(seagreen, indigo);
+    }
+}
+@media (max-width: 600px) and (max-width: 699px) {
+    .box {
+        background-color: seagreen;
+    }
+}
